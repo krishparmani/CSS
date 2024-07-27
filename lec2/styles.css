@@ -1,0 +1,48 @@
+/* class selector */
+
+body{
+    height: 700px;
+    background-image: url(./hookah.jpg);
+    background-repeat: no-repeat;
+}
+
+.para{
+    color: red;
+}
+
+/* element selector */
+/*p{
+    color: aqua;
+}*/
+
+/* higher priority is to class because it is more specific */
+
+/* id selector */
+#para4{
+    color: green;
+}
+
+/* priority order - 1.id 2.class 3.element */
+/* id must be unique but if its not, no error will be thrown */
+
+/* choose all elements that have class success */
+.success{
+    color: white;
+    background-color: green;
+}
+
+/* element and id */
+
+p.success{
+    background-color: aquamarine;
+}
+
+/* descendant selector - selects all descendants(children) */
+div p{
+    color: blue;
+}
+
+/* child selector only selects first level elements - direct children */
+div > p{
+    color: red;
+}

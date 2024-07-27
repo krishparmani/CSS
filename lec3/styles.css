@@ -1,0 +1,57 @@
+/* adjacent sibling selector (isme div ke neeche jo p chipka hua hai uspe hi color apply hoga)*/
+/* can also use "~" instead of "+" */
+/* div + p{
+    color: red;
+}
+
+ /* general sibling selector (isme div ke neeche jo saare p hai uspe hi color apply hoga) *
+div ~ p{
+    color: red;
+} 
+
+div{
+    border: 2px solid black;
+} */
+
+.bg{
+    
+     color: white;
+    /* height: 100px;
+    width: 1000px; */
+    background-repeat: no-repeat;
+    background-size: cover ;
+    margin: 20px;
+    border: 1px solid red;
+    /* padding text aur border ke beech mein gap deta hai */
+    padding: 20px;
+    /* background-position: bottom right; */
+    /* background-color: black;*/
+}
+
+#id1{
+    background-color: aqua;
+}
+
+#id2{
+    background-image: url('hookah.jpg');
+}
+
+/* body{
+margin: 0;
+padding: 0;
+}
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 600px;
+    /* height: 500px;*/
+    border: 2px solid red;
+    padding: 20px;
+    margin: 20px;
+    background-color: aqua;
+}
